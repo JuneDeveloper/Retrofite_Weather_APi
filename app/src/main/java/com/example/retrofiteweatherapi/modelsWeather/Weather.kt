@@ -1,4 +1,4 @@
-package com.example.retrofiteweatherapi.models
+package com.example.retrofiteweatherapi.modelsWeather
 
 data class Weather(
     val description: String,

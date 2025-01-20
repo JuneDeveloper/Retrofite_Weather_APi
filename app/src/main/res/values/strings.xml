@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">Retrofite Weather APi</string>
-    <string name="city">Город</string>
+    <string name="city">Введите город</string>
     <string name="temperature">t°C</string>
     <string name="route">Направление</string>
-    <string name="speed">Скорость</string>
+    <string name="speed">Скорость ветра</string>
     <string name="pressure">Атмосферное давление</string>
     <string name="api_key">1280de72d4d2ddd4c3008f8d2b9b0046</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="getWeather">Узнать прогноз</string>
+    <string name="some">Какой то текст</string>
+    <string name="getInfo">Получить данные</string>
+    <string name="exit">Выход</string>
+    <string name="visibility">Видимость</string>
+    <string name="humidity">Влажность</string>
 </resources>
