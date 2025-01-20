@@ -61,7 +61,7 @@ class SecondActivity : AppCompatActivity() {
         weatherIV = findViewById(R.id.weatherIV)
     }
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint("ResourceAsColor")
     private fun getCurrentWeather() {
         GlobalScope.launch(Dispatchers.IO) {
             val response = try {
@@ -109,6 +109,8 @@ class SecondActivity : AppCompatActivity() {
             }
         }
     }
+
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu,menu)

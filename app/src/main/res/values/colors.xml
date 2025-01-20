@@ -5,4 +5,6 @@
     <color name="back">#04F6BA</color>
     <color name="blue">#0094FF</color>
     <color name="yellow">#FBEB00</color>
+    <color name="cold">#0328FF</color>
+    <color name="orange">#FF7F00</color>
 </resources>
