@@ -98,9 +98,7 @@ class SecondActivity : AppCompatActivity() {
                     humidityTV.text = "Влажность: ${data.main.humidity}%"
 
                     val iconId = data.weather[0].icon
-                    Log.d("TAGGGGGGGGG", iconId)
-                    val imageUrl = "https://openweathermap.org/img/wn/$iconId@2x.png"
-                    Log.d("Tagggg",imageUrl)
+                    val imageUrl = "https://openweathermap.org/img/wn/$iconId@4x.png"
                     Picasso.get().load(imageUrl).into(weatherIV)
 
                     val currentPressure = (data.main.pressure / 1.33).toInt()
